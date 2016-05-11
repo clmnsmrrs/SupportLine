@@ -33,7 +33,7 @@ public class Responder {
 			if (response != null) return response;
 		}
 		
-		return "I didn't understand the question";
+		return "Please tell me more";
 	}
 
 }

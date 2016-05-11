@@ -3,7 +3,7 @@ import java.util.*;
 
 public class InputReader {
 	
-	Scanner sc = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in); // neuer Scanner ließt dann von der Konsole
 	
 	public HashSet<String> readinput(){
 		String question = sc.nextLine().trim().toLowerCase();
@@ -16,10 +16,6 @@ public class InputReader {
 		}
 		
 		return words;
-		
-		
-		//return Console.readln();
-	
 	}
 	
 }
